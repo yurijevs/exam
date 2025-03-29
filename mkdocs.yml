@@ -3,8 +3,6 @@ theme:
   name: material
   features:
     - content.code.copy
-    - content.code.select
-    - content.code.toolbar
 markdown_extensions:
   - smarty
   - pymdownx.highlight:
