@@ -1,8 +1,10 @@
 site_name: My Exam
 theme:
   name: material
+  language: ru
   features:
     - content.code.copy
+    - content.code.annotate
 markdown_extensions:
   - smarty
   - pymdownx.highlight:
@@ -13,4 +15,8 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
 plugins:
-  - search
+  - search:
+      enabled: true
+      lang:
+        - ru
+        - en
