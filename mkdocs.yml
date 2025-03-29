@@ -1,0 +1,11 @@
+site_name: My Exam
+theme:
+  name: readthedocs
+  highlightjs: true
+markdown_extensions:
+  - smarty
+plugins:
+  - search:
+      lang: ru
+      indexing: 'full'
+
