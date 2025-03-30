@@ -1,4 +1,5 @@
 site_name: My Exam
+site_url: https://exam.yurij.org/
 theme:
   name: material
   language: ru
