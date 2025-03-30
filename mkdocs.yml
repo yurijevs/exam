@@ -1,6 +1,7 @@
 site_name: My Exam
 site_url: https://exam.yurij.org/
 nav:
+  - Главная: index.md
   - Билет 01.  HTTPS с самоподписанным сертификатом и  фильтрацией трафика: ticket_01.md
   - Билет 02. HTTPS c сертификатом от собственного УЦ: ticket_02.md
   - Билет 03. SMB-сервер в составе домена AD: ticket_03.md
