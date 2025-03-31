@@ -1,6 +1,7 @@
 site_name: My Exam
 site_url: https://yurijevs.github.io/exam/
 repo_url: https://github.com/yurijevs/exam/
+docs_dir: docs
 repo_name: yurijevs/exam
 edit_uri: edit/master/docs/
 nav:
