@@ -1,5 +1,5 @@
 site_name: My Exam
-site_url: https://yurijevs.github.io/exam
+site_url: https://yurijevs.github.io/
 nav:
   - Главная: index.md
   - Билет 01.  HTTPS с самоподписанным сертификатом и  фильтрацией трафика: ticket_01.md
