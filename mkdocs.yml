@@ -17,10 +17,15 @@ nav:
   - Билет 10. DNS с репликацией между первичным и вторичным сервером с фильтрацией трафика: ticket_10.md
 theme:
   name: material
+  icon:
+    edit: material/pencil
+    view: material/eye
   language: ru
   features:
     - content.code.copy
     - content.code.annotate
+    - content.action.edit
+    - content.action.view
 markdown_extensions:
   - smarty
   - pymdownx.highlight:
