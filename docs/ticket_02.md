@@ -23,20 +23,22 @@ cd /srv/ca
 easyrsa init-pki
 easyrsa build-ca
 ...
-Enter New CA Key Passphrase: 123456778
-Re-Enter New CA Key Passphrase: 12345678
+Enter New CA Key Passphrase: # (1)
+Re-Enter New CA Key Passphrase: # (2)
 ...
 Common Name (eg: your user, host, or server name) [Easy-RSA CA]:altsrv2
 ...
-vim mydomain.ru.req # (1)
+vim mydomain.ru.req # (3)
 easyrsa import-req mydomain.ru.req mydomain.ru
-cat /srv/ca/pki/issued/mydomain.ru.crt # (2)
-cat pki/ca.crt # (3)
+cat /srv/ca/pki/issued/mydomain.ru.crt # (4)
+cat pki/ca.crt # (5)
 ```
 
-1. вставляем содержимое mydomain.ru.req c altsrv1 на подпись
-2. копируем и вставляем на altsrv1
-3. копируем и вставляем на altsrv1
+1. 12345678
+2. 12345678
+3. вставляем содержимое mydomain.ru.req c altsrv1 на подпись
+4. копируем и вставляем на altsrv1
+5. копируем и вставляем на altsrv1
 ### Altsrv1
 ```bash
 apt-get install nginx webserver-common easy-rsa
