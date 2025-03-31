@@ -1,5 +1,8 @@
 site_name: My Exam
 site_url: https://yurijevs.github.io/exam/
+repo_url: https://github.com/yurijevs/exam/
+repo_name: yurijevs/exam
+edit_uri: edit/master/docs/
 nav:
   - Главная: index.md
   - Билет 01.  HTTPS с самоподписанным сертификатом и  фильтрацией трафика: ticket_01.md
