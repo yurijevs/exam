@@ -341,7 +341,7 @@ zone "test.dom" {
 };
 zone "100.168.192.in-addr.arpa" {
         type slave;
-		master { 192.168.100.252; };
+	masters { 192.168.100.252; };
         file "slave/192-168.100.zone";
 };
 
