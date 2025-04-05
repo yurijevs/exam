@@ -1,5 +1,9 @@
 site_name: My Exam
-site_url: https://exam.yurij.org/
+site_url: https://yurijevs.github.io/exam/
+repo_url: https://github.com/yurijevs/exam/
+docs_dir: docs
+repo_name: yurijevs/exam
+edit_uri: edit/master/docs/
 nav:
   - Главная: index.md
   - Билет 01.  HTTPS с самоподписанным сертификатом и  фильтрацией трафика: ticket_01.md
@@ -14,10 +18,16 @@ nav:
   - Билет 10. DNS с репликацией между первичным и вторичным сервером с фильтрацией трафика: ticket_10.md
 theme:
   name: material
+  icon:
+    edit: material/pencil
+    view: material/eye
   language: ru
   features:
     - content.code.copy
     - content.code.annotate
+    - content.action.edit
+    - content.action.view
+    - navigation.top
 markdown_extensions:
   - smarty
   - pymdownx.highlight:
